@@ -1,0 +1,32 @@
+buildscript {
+	ext {
+		springBootVersion = '2.1.6.RELEASE'
+	}
+    repositories {
+    	mavenLocal()
+    	mavenCentral()
+    }
+    dependencies {
+    	classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+    
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+	implementation("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+	implementation("org.springframework.boot:spring-boot-starter-security:${springBootVersion}")
+	implementation("org.springframework:spring-jdbc:5.1.8.RELEASE")
+	implementation('org.apache.tomcat.embed:tomcat-embed-jasper:9.0.22')
+    implementation('javax.servlet:jstl:1.2')
+    runtime("com.h2database:h2:1.4.196")
+}
