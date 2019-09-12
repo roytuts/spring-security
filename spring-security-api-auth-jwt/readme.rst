@@ -1,1 +1,1 @@
-You can read tutorial https://www.jeejava.com/spring-security-authentication-and-role-based-authorization-using-jwt/
+You can read tutorial https://www.roytuts.com/spring-security-authentication-and-role-based-authorization-using-jwt/

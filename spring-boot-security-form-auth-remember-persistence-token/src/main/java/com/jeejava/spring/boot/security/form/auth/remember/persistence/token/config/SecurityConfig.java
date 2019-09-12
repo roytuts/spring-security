@@ -1,4 +1,4 @@
-package com.jeejava.spring.boot.security.form.auth.remember.persistence.token.config;
+package com.roytuts.spring.boot.security.form.auth.remember.persistence.token.config;
 
 import javax.sql.DataSource;
 

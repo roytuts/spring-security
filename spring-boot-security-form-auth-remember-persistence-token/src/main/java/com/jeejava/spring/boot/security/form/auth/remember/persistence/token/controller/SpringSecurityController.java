@@ -1,4 +1,4 @@
-package com.jeejava.spring.boot.security.form.auth.remember.persistence.token.controller;
+package com.roytuts.spring.boot.security.form.auth.remember.persistence.token.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

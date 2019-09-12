@@ -1,1 +1,1 @@
-You can read tutorial https://www.jeejava.com/spring-security-pre-authentication-example/
+You can read tutorial https://www.roytuts.com/spring-security-pre-authentication-example/

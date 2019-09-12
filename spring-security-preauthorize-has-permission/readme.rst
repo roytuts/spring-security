@@ -1,1 +1,1 @@
-You can read tutorial https://www.jeejava.com/preauthorize-annotation-haspermission-example-in-spring-security/
+You can read tutorial https://www.roytuts.com/preauthorize-annotation-haspermission-example-in-spring-security/
