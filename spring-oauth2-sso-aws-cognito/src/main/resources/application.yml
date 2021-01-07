@@ -1,0 +1,22 @@
+server:
+  port: 8089
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            clientId: <client id>
+            clientSecret: <client secret>
+            scope: openid, email
+            authorization-grant-type: authorization_code
+            redirect-uri: "{baseUrl}/login/oauth2/code/cognito"
+            clientName: <client name>
+        provider:
+          cognito:
+            user-info-uri: <user info URL>
+            jwk-set-uri: <jwks URL>
+            token-uri: <token URL>
+            authorization-uri: <authorize URL>
+            userNameAttribute: sub
