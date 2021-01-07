@@ -1,28 +1,34 @@
 buildscript {
 	ext {
-		springBootVersion = '2.1.5.RELEASE'
+		springBootVersion = '2.2.4.RELEASE'
 	}
+	
     repositories {
-    	mavenLocal()
-    	mavenCentral()
+        mavenCentral()
     }
+    
     dependencies {
-    	classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
 }
 
-apply plugin: 'java'
-apply plugin: 'org.springframework.boot'
+plugins {
+    id 'java-library'
+    id 'org.springframework.boot' version '2.2.4.RELEASE'
+}
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 12
+targetCompatibility = 12
 
 repositories {
-	mavenLocal()
     mavenCentral()
 }
 
 dependencies {
-	compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
-	compile("org.springframework.boot:spring-boot-starter-security:${springBootVersion}")
+    implementation("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+	implementation("org.springframework.boot:spring-boot-starter-security:${springBootVersion}")
+	implementation("org.springframework.boot:spring-boot-starter-jdbc:${springBootVersion}")
+	implementation('mysql:mysql-connector-java:8.0.17')
+    //required only if jdk 9 or higher version is used
+    runtimeOnly('javax.xml.bind:jaxb-api:2.4.0-b180830.0359')
 }
