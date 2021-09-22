@@ -1,0 +1,1 @@
+You can go through the tutorial https://roytuts.com/spring-security-pre-authentication-with-spring-data-jpa/
