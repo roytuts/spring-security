@@ -1,1 +1,1 @@
-You can go through the tutorial https://www.roytuts.com/spring-boot-security-form-based-jdbc-authentication-using-userdetailsservice/
+Follow the tutorial https://roytuts.com/spring-boot-security-form-based-jdbc-authentication-using-userdetailsservice/
