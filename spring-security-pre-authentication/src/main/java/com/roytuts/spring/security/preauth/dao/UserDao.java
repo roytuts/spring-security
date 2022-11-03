@@ -17,7 +17,7 @@ public class UserDao {
 	public User getUser(String username) {
 		try {
 			final String sql = "select u.user_name user_name, u.user_pass user_pass, ur.user_role user_role from user u, user_role ur where u.user_name = ? and u.user_name = ur.user_name";
-			User userDetails = jdbcTemplate.queryForObject(sql, new Object[] { username }, new UserRowMapper());
+			User userDetails = jdbcTemplate.queryForObject(sql, new UserRowMapper(), username);
 			return userDetails;
 		} catch (EmptyResultDataAccessException ex) {
 			return null;// should have proper handling of Exception
