@@ -1,1 +1,1 @@
-You can go through the tutorial https://roytuts.com/spring-enableencryptableproperties-with-jasypt/
+Please follow the tutorial https://roytuts.com/spring-enableencryptableproperties-with-jasypt/
