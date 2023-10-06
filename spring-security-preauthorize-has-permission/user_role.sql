@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS `user` (
   `user_name` varchar(30) NOT NULL,
   `user_pass` varchar(255) NOT NULL,
-  `enable` tinyint(4) NOT NULL DEFAULT '1',
+  `enable` tinyint NOT NULL DEFAULT '1',
   PRIMARY KEY (`user_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
