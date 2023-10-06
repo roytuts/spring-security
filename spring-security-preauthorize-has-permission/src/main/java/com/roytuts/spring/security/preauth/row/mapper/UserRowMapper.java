@@ -1,4 +1,4 @@
-package com.roytuts.spring.security.preauth.row.mapper;
+package com.roytuts.spring.security.preauthy.row.mapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
