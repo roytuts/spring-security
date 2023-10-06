@@ -11,7 +11,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import com.roytuts.spring.security.preauth.permission.CustomPermissionEvaluator;
 import com.roytuts.spring.security.preauth.service.UserAuthService;
 
-\@Configuration
+@Configuration
 public class SpringPreAuthorizeSecurityConfig {
 
 	@Autowired
