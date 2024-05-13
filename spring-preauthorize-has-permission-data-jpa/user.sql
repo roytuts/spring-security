@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `user_pass` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `enable` tinyint COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '1',
   PRIMARY KEY (`user_id`),
-  UNIQUE KEY `user_unique_key` (`user_name`),
+  UNIQUE KEY `user_unique_key` (`user_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS `user_role` (
