@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/preauthorize-annotation-hasrole-example-in-spring-security/
+Please follow the tutorial https://roytuts.com/preauthorize-annotation-hasrole-example-in-spring-security/
